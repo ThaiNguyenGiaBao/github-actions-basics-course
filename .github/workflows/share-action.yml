@@ -10,3 +10,6 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
             - run: ls 
+            - run: echo "Hello from the shared action"
+            - run: mkdir new_folder
+            - run: ls
